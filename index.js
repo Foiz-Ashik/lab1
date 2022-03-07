@@ -34,9 +34,6 @@ canvasElem.addEventListener("mousedown", function(e)
     getMousePosition(canvasElem, e);
 })
 
-
-
-
 for(var i = 0;i<fruits.length;i++){
     var y = 1000;
     ctx.strokeStyle = 'black';
@@ -109,7 +106,7 @@ for(var i = 0;i<fruits.length;i++){
         ctx.beginPath();
         ctx.fillStyle = 'purple';
         ctx.fillRect(750,y,150,500);
-        ctx.strokeText(q,8000,930,100,100);
+        ctx.strokeText(q,800,930,100,100);
         ctx.strokeText('Grapes',760,980,130,100);
         y-=50;
         } 
